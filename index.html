@@ -7,31 +7,90 @@
 
     <!-- Bootstrap CSS -->
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/main.css">
 
-    <title>My First website</title>
+    <!--Google fonts import-->
+    <link href="https://fonts.googleapis.com/css?family=Lobster|Roboto&display=swap" rel="stylesheet">
+    <<!-- Add icon library -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+
+  <title>Inspirational Women</title>
   </head>
 
 
-  <body>
-    <nav class="navbar navbar-dark bg-dark">
-      <a class="navbar-brand" href="index.html"><span class="nav-brand">Inspirational Women</span></a>
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-        <span class="navbar-toggler-icon"></span>
-      </button>
-      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-        <div class="navbar-nav">
-          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-          <a class="nav-item nav-link" href="#">Features</a>
-          <a class="nav-item nav-link" href="#">Pricing</a>
-          <a class="nav-item nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-        </div>
-      </div>
-    </nav>
+  <body> <!--body begin-->
+
+    <<!-- Navigation -->
+   <nav class="navbar navbar-expand-lg navbar-light fixed-top">
+     <div class="container">
+       <a class="navbar-brand" href="index.html"><span class="brand-title">Inspirational Women</span></a>
+       <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
+         <span class="navbar-toggler-icon"></span>
+       </button>
+       <div class="collapse navbar-collapse" id="navbarResponsive">
+         <ul class="navbar-nav ml-auto">
+           <li class="nav-item">
+             <a class="nav-link" href="index.html">About us</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="business.html">Business</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="sports.html">Sports</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="activists.html">Activists</a>
+           </li>
+           <li class="nav-item">
+             <a class="nav-link" href="authors.html">Authors</a>
+           </li>
+         </ul>
+       </div>
+     </div>
+   </nav>
+
+   <!-- Image header section -->
+   <header class="masthead"></header>
+   <!-- Image header section end -->
+
+   <!-- Intro text section -->
+   <section id="intro">
+     <div class="container">
+       <p class="intro-text">The <span class="brand-title">Inspirational Women</span> website showcases women who have made significant achievements in backgrounds such as; Business, Sports, Activists and Authors. We aim to inspire women all around the world and bring women together.<p>
+       </div>
+     </section>
+    <!-- intro section end -->
+
+     <div class="container contact-form">
+       <form action="action_page.php">
+         <label for="fname">First Name</label>
+         <input type="text" id="fname" name="firstname" placeholder="First Name">
+         <label for="lname">Last Name</label>
+         <input type="text" id="lname" name="lastname" placeholder="Last name">
+         <label for="country">Email</label>
+         <input type="email" id="email" name="email" placeholder="Please enter your email">
+         <label for="Message">Message</label>
+         <textarea id="message" name="message" placeholder="Enter your message here..." style="height:200px"></textarea>
+         <input type="submit" value="Submit">
+       </form>
+     </div>
+
+     <!-- Footer -->
+     <footer class="footer">
+       <div class="container">
+         <p class="footer-text text-center">Copyright all rights reserved &copy; Inspirational Women 2020</p>
+         <p class="footer-text text-center"><a href="#" class="fa fa-facebook"></a><a href="#" class="fa fa-twitter"><a></p>
+         </div>
+       </footer>
+       <!-- footer end -->
 
 
 
+    <!--bootstrap scripts -->
     <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js" integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous"></script>
     <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
-  </body>
+    <!--Bootstrap scripts end -->
+  </body> <!--body end -->
 </html>
