@@ -3,7 +3,7 @@ body {
     font-family:'Roboto', sans-serif;
 }
 
- .navbar-brand .brand-title {
+.brand-title {
     font-family: 'Lobster', cursive;
     font-size: 30px;
     color: #000;
@@ -136,12 +136,18 @@ input[type=text], #email, textarea {
 /* Facebook */
 .fa-facebook {
   color: white;
-  font-size:30px
+  font-size: 30px !important;
+  border: 2px solid;
+  padding: 8px;
+  margin-right:10px;
 }
 
 /* Twitter */
 .fa-twitter {
   color: white;
+  font-size: 30px !important;
+  border: 2px solid;
+  padding: 8px;
 }
 
 /* Social icons style end */
